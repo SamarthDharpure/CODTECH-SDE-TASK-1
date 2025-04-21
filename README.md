@@ -1,22 +1,19 @@
 # CODTECH-SDE-TASK-1
 **Task 1** - STATIC WEBSITE FOR PORTFOLIO
 
-Absolutely! Here’s a professional `README.md` file for **your static developer portfolio website**, modeled after the style and structure of the **CourseWire** example you provided:
-
-markdown
 # 🌐 Developer Portfolio Website
 
 ### Internship Task - 1  
 **Company:** CODTECH IT SOLUTIONS  
 **Intern:** Samarth Dharpure  
-**Intern ID:** CT08PD733  
-**Domain:** Web Development  
+**Intern ID:** CT04WP21  
+**Domain:** Software Development  
 **Duration:** 4 Weeks  
-**Mentor:** G. SRAVANI
+**Mentor:** Neela Santhosh Kumar
 
 ## 📌 Overview of the Project
 
-**Project:** Developer Portfolio Website  
+**Project:** STATIC WEBSITE FOR PORTFOLIO
 This is a responsive, professional, and elegant portfolio website created as part of the internship at CODTECH IT SOLUTIONS. The website is built using HTML, CSS, and JavaScript, and showcases a developer’s skills, projects, resume, and contact details in a clean and modern design.
 
 The aim is to create a personal brand space for developers and help them stand out to recruiters and clients with an impactful online presence.
@@ -90,9 +87,5 @@ To contribute:
 📧 **Email**: [samarthdharpure910@gmail.com](mailto:samarthdharpure910@gmail.com)  
 💼 **LinkedIn**: [linkedin.com/in/samarthdharpure](https://linkedin.com/in/samarthdharpure)  
 💻 **GitHub**: [github.com/samarthdharpure](https://github.com/samarthdharpure)
-
-## 📃 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 > Designed with ❤️ by **Samarth Dharpure**
