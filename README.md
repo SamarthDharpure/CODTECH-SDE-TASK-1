@@ -80,4 +80,7 @@ To contribute:
 💼 **LinkedIn**: [linkedin.com/in/samarthdharpure](https://linkedin.com/in/samarthdharpure)  
 💻 **GitHub**: [github.com/samarthdharpure](https://github.com/samarthdharpure)
 
+## OUTPUT
+![Image](https://github.com/user-attachments/assets/b9314d5c-4f59-4ac5-8634-603df38536ce)
+
 > Designed with ❤️ by **Samarth Dharpure**
