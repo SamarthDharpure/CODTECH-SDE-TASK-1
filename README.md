@@ -1,7 +1,8 @@
 # CODTECH-SDE-TASK-1
+
 **Task 1** - STATIC WEBSITE FOR PORTFOLIO
 
-# 🌐 Developer Portfolio Website
+# 🌐 STATIC WEBSITE FOR PORTFOLIO
 
 ### Internship Task - 1  
 **Company:** CODTECH IT SOLUTIONS  
