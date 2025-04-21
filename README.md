@@ -57,15 +57,6 @@ cd portfolio-website
 
 That's it! No extra installations needed since it’s a static website.
 
-## 📂 Folder Structure
-
-├── index.html
-├── style.css
-├── script.js (if needed)
-├── assets/
-│   └── images/
-└── README.md
-
 ## 🧑‍💻 Usage
 
 - **For Developers**: Customize with your own details and deploy as your personal site.
