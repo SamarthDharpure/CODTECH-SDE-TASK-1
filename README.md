@@ -1,7 +1,5 @@
 # CODTECH-SDE-TASK-1
 
-**Task 1** - Static Portfolio Website
-
 # 🌐 STATIC WEBSITE FOR PORTFOLIO
 
 ### Internship Task - 1  
