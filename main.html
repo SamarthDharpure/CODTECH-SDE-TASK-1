@@ -1,12 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Samarth Dharpure | Full Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samarth Dharpure | Software Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -16,94 +16,107 @@
     }
 
     body {
-      background: #f9f9f9;
+      background-color: #f9f9f9;
       color: #333;
-      line-height: 1.6;
     }
 
     header {
-      background: #222;
-      color: #fff;
-      padding: 2rem 2rem;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 3rem 1rem;
       text-align: center;
     }
 
     header h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
     }
 
-    nav ul {
-      list-style: none;
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: #333;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 1rem;
-    }
-
-    nav li {
-      margin: 0.5rem;
+      gap: 2rem;
+      padding: 1rem 0;
     }
 
     nav a {
-      color: #fff;
+      color: white;
       text-decoration: none;
-      padding: 0.6rem 1.2rem;
-      background: #444;
-      border-radius: 6px;
-      transition: background 0.3s ease;
+      font-weight: 500;
+      transition: color 0.3s;
     }
 
     nav a:hover {
-      background: #007BFF;
+      color: #fca311;
     }
 
     section {
-      padding: 3rem 2rem;
-      max-width: 1000px;
-      margin: auto;
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
-    section h2 {
-      font-size: 2rem;
+    h2 {
       margin-bottom: 1rem;
-      color: #007BFF;
+      color: #2c5364;
     }
 
-    .skills span,
-    .projects a {
-      display: inline-block;
-      background: #007BFF;
-      color: #fff;
-      padding: 0.6rem 1.2rem;
-      border-radius: 5px;
-      margin: 0.3rem;
-      text-decoration: none;
-      font-size: 0.9rem;
+    .about p {
+      font-size: 1.1rem;
     }
 
-    .experience,
-    .education,
-    .certifications {
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      list-style: none;
+    }
+
+    .skills li {
+      background: #f0f0f0;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    .project {
       margin-bottom: 2rem;
     }
 
-    .experience h3,
-    .education h3,
-    .certifications h3 {
-      margin-top: 1rem;
-      font-weight: bold;
+    .project-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #14213d;
     }
 
-    .timeline-item {
-      margin-bottom: 1rem;
+    .project p {
+      margin-top: 0.5rem;
+    }
+
+    .contact a {
+      color: #2c5364;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
     }
 
     footer {
-      background: #222;
-      color: #fff;
       text-align: center;
       padding: 2rem;
-      margin-top: 3rem;
+      background-color: #14213d;
+      color: white;
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -111,91 +124,66 @@
 <body>
   <header>
     <h1>Samarth Dharpure</h1>
-    <p>Software Developer | Life Coach | Google Arcade Champion | Aspiring SWE @ MAANG</p>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <p>Software Developer | Web Designer | Google SWE Aspirant</p>
   </header>
 
-  <section id="about">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I am a third-year CS student from Indore and a dedicated software developer. With expertise in Java, DSA, and web technologies, I aim to contribute to real-world projects that solve complex problems. As a mindset coach and Krishna devotee, I bring clarity, discipline, and purpose to every endeavor.</p>
+    <p>I am a results-driven software developer with a strong background in web development, algorithms, and problem-solving. Currently pursuing a B.Tech in Computer Science, I have built multiple professional-grade projects and am actively preparing for top tech interviews. I specialize in Java, DSA, and full-stack development.</p>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>Java</span><span>Python</span><span>C++</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
-      <span>React</span><span>Node.js</span><span>MongoDB</span><span>Git</span><span>GitHub</span>
-      <span>DSA</span><span>Firebase</span><span>TailwindCSS</span><span>Bootstrap</span>
+  <section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React.js</li>
+      <li>Tailwind CSS</li>
+      <li>Node.js</li>
+      <li>Java</li>
+      <li>Data Structures & Algorithms</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+      <li>REST APIs</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project">
+      <p class="project-title">Personal Portfolio Website</p>
+      <p>A beautifully designed, responsive portfolio website that highlights my skills, projects, and experiences. Built using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <p class="project-title">DSA Practice Tracker</p>
+      <p>A full-stack web application to track DSA problems solved, with topic-wise progress and leaderboard. Built with MERN stack.</p>
+    </div>
+    <div class="project">
+      <p class="project-title">Weather Forecast App</p>
+      <p>Utilizes OpenWeather API to provide real-time weather updates for cities around the world. Features responsive design and local storage.</p>
     </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-      <a href="https://github.com/samarthdharpure/real-time-collab-tool" target="_blank">Real-Time Collaboration Tool</a>
-      <a href="https://github.com/samarthdharpure/portfolio-website" target="_blank">Portfolio Website</a>
-      <a href="https://github.com/samarthdharpure/code-refactor-project" target="_blank">Code Refactor & Optimization</a>
-      <a href="https://github.com/samarthdharpure/krishna-quotes-app" target="_blank">Krishna Quotes App</a>
-      <a href="https://github.com/samarthdharpure/calorie-tracker" target="_blank">Calorie Tracker (Fitness Project)</a>
-    </div>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="experience">
-      <div class="timeline-item">
-        <h3>Software Development Intern @ CODTECH IT SOLUTIONS</h3>
-        <p>Built a responsive personal portfolio and contributed to static site development for interns.</p>
-      </div>
-      <div class="timeline-item">
-        <h3>Open-Source Contributor @ GitHub</h3>
-        <p>Refactored code and optimized performance in community-led projects.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <div class="education">
-      <h3>B.Tech in Computer Science (2022–2026)</h3>
-      <p>University in Indore, MP — CGPA: 8.4</p>
-    </div>
-  </section>
-
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <div class="certifications">
-      <h3>Google Arcade Champion</h3>
-      <p>Winner in national coding and logic challenges by Google</p>
-
-      <h3>LaunchED Global Brand Ambassador</h3>
-      <p>Represented student community for software career upliftment</p>
-
-      <h3>Graphic Design Certification - Coursera</h3>
-      <p>Certified in Photoshop, Illustrator, and UI/UX basics</p>
-    </div>
-  </section>
-
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:samarthdharpure910@gmail.com">samarthdharpure910@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/samarthdharpure" target="_blank">linkedin.com/in/samarthdharpure</a></p>
-    <p>GitHub: <a href="https://github.com/samarthdharpure" target="_blank">github.com/samarthdharpure</a></p>
+    <p>Email: <a href="mailto:samarth@example.com">samarth@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/samarthdharpure" target="_blank">@samarthdharpure</a></p>
+    <p>GitHub: <a href="https://github.com/samarthdharpure" target="_blank">@samarthdharpure</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Samarth Dharpure. Made with passion & Krishna bhakti 💛</p>
+    <p>&copy; 2025 Samarth Dharpure. Crafted with care and code. All rights reserved.</p>
   </footer>
 </body>
 
 </html>
+
