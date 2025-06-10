@@ -1,6 +1,6 @@
 # CODTECH-SDE-TASK-1
 
-**Task 1** - STATIC WEBSITE FOR PORTFOLIO
+**Task 1** - Static Portfolio Website
 
 # 🌐 STATIC WEBSITE FOR PORTFOLIO
 
